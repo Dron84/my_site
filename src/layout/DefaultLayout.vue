@@ -2,8 +2,9 @@
     <div>
         <HeadersComponent></HeadersComponent>
         <aboutself></aboutself>
+        <brands></brands>
         <support></support>
-        <!--<works></works>-->
+        <works></works>
         <!--<review></review>-->
         <price></price>
         <contacts></contacts>
@@ -14,6 +15,7 @@
 <script>
     import HeadersComponent from '@/components/head'
     import aboutself from '@/components/aboutself'
+    import brands from '@/components/brands'
     import support from '@/components/support'
     import works from '@/components/works'
     import review from '@/components/review'
@@ -23,7 +25,7 @@
 
     export default {
         name: "DefaultLayout",
-        components:{HeadersComponent,aboutself,support,works,review,price,contacts,foot}
+        components:{HeadersComponent,aboutself,brands,support,works,review,price,contacts,foot}
     }
 </script>
 
