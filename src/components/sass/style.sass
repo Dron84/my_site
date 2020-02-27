@@ -1,0 +1,376 @@
+body,h1,h2,h3
+	font-family: 'ProximaBold'
+	//text-transform: uppercase
+*
+	margin: 0
+	padding: 0
+	outline: none
+section
+	width: 100%
+	padding-top: 40px
+	padding-bottom: 40px
+	background-color: white
+p,a,li
+	font-family: 'ProximaRegular'
+	font-size: 18px
+	text-decoration: none
+h1
+	font-size: 38px
+	text-align: center	
+.footer
+	background-color: $accent
+	color: $accentnormal
+	width: 100%
+	padding: 40px 0
+	h1
+		text-transform: uppercase
+		font-size: 1.5em
+.accent
+	color: $accent
+.accentnormal
+	color: $accentnormal
+.container
+	margin:
+		left: auto
+		right: auto
+	h1
+		// position: relative
+		// margin-top: 20vh
+	p
+		// position: relative
+		// margin-top: 10vh
+		font-size: 16px
+	input
+		margin-top: 10vh
+		&::placeholder
+			font-size: 16px
+	button
+		margin-top: 10vh
+.container600
+	margin: 0 auto
+	width: 600px
+	p 
+		padding: 15px 15px
+		text-align: center
+.inputonblack
+	border: 1px solid white
+	border-radius: 5px
+	background-color: transparent
+	height: 35px
+	padding: 0 5px
+	color: $accentnormal
+	font-family: 'ProximaLight'
+	width: 190px
+	z-index: 1000
+	&::placeholder
+		color: $accentnormal
+		font-size: 18px
+		font-family: 'ProximaLight'
+
+.button
+	border: 1px solid $accent
+	padding: 0 5px
+	border-radius: 5px
+	background-color: $accent
+	color: $accentnormal
+	font-size: 18px
+	font-family: 'ProximaLight'
+	height: 37px
+	width: 100%
+	z-index: 1000
+	&:hover
+		background-color: transparent
+		border: 1px solid $accentnormal
+		font-family: 'ProximaBold'
+
+.angel 
+	width: 100%
+	height: 70px
+	position: relative
+	// background: $accent
+	color: white
+	font-size: 11px
+	letter-spacing: 0.2em
+	text-align: center
+	text-transform: uppercase
+	overflow: hidden
+
+.angel:before 
+	content: ""
+	position: absolute
+	left: 0
+	top: 0
+	width: 0
+	height: 0
+	border-top: 70px solid transparent
+	border-left: 50vw solid $accent
+	border-right: 50vw solid $accent
+.angel_white
+	width: 100%
+	height: 80px
+	position: relative
+	top: -80px
+	// background: $accent
+	color: white
+	font-size: 11px
+	letter-spacing: 0.2em
+	text-align: center
+	text-transform: uppercase
+	overflow: hidden
+.angel_white:before 
+	content: ""
+	position: absolute
+	left: 0
+	top: 0
+	width: 0
+	height: 0
+	border-top: 80px solid transparent
+	border-left: 50vw solid white
+	border-right: 50vw solid white
+.angel_accent
+	position: relative
+	background-color: $accent
+	height: 10px
+.angels
+	width: 100%
+	height: 80px
+	position: absolute
+	bottom: 0px
+	left: 0px
+
+.beginer
+	margin: 
+		left: auto
+		right: auto
+		top: 15px
+		bottom: 15px
+	width: 100px
+	height: 3px
+	background-color: rgba(193,193,193,1)
+.imgrounded
+	margin-top: 40px
+	width: 150px
+	height: 150px
+	border-radius: 50% 50%
+	border: 2px solid $accent
+	box-shadow: 0px 0px 30px $accent
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		border-radius: 50% 50%
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: $accent
+		opacity: 0.2
+.avatar
+	background-image: url('https://pp.userapi.com/c639325/v639325356/5d23f/laC9ZWyg9SA.jpg')
+	background-position: 50% 50%
+	background-repeat: no-repeat
+	background-size: cover
+
+
+
+#support
+	margin: 0
+	padding: 0 !important
+	background-color: transparent
+.support
+	display: grid
+	grid-template-columns: 1fr 1fr
+	grid-template-areas: "left right"
+	grid-template-rows: 200px
+	padding: 0
+	&_left
+		grid-area: left
+		background-color: $accent
+		position: relative
+		&:after
+			content: ''
+			background-image: url('/img/support_left.png')
+			background-repeat: no-repeat
+			background-size: cover
+			width: 200px
+			height: 150px
+			position: absolute
+			top: 20px
+			right: 30px
+	&_right
+		grid-area: right
+		background-color: rgba(black,.7)
+		position: relative
+		padding: 20px
+.contact
+	position: relative
+	background-color: rgba(0,0,0,0.7)
+	&:before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		background-image: url('/img/contact_bg.jpg')
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: 50% 50%
+		opacity: 0.7
+		width: 100%
+		height: 100%
+		z-index: -1
+	&_tel
+		text-decoration: none
+		text-align: center
+		cursor: pointer
+		font-size: 2em
+		&:hover
+			color: $accent
+			border-bottom: 1px solid $accent
+#aboutself
+	position: relative
+.rew
+	display: grid
+	grid-template-columns: 1fr 1fr 1fr
+	grid-template-areas: "rew1 rew2 rew3"
+	
+	padding: 30px
+	
+	div
+		position: relative
+		border: 0
+		border-radius: 5px
+		.img
+			margin-left: auto
+			margin-right: auto
+			border: 0
+			border-radius: 50% 50%
+			width: 150px
+			height: 150px
+			overflow: hidden
+			box-shadow: 0 0 30px $accent
+			img
+				height: 150px
+		a
+			color: $accentnormal
+			font-family: 'ProximaBold'
+			font-weight: 300
+			text-decoration: none
+		h3
+			font-family: 'ProximaBold'
+			font-weight: 300
+		p
+			font-family: 'ProximaLight'
+		div
+			font-family: 'ProximaLight'
+			color: grey
+		
+		&:hover
+			content: ''
+			cursor: pointer
+			-moz-transform: scale(1.1)
+			-o-transform: scale(1.1)
+			-webkit-transform: scale(1.1)
+			transform: scale(1.1)
+			transition: all .3s ease-in-out
+.table
+	margin-top: 30px
+	display: grid
+	grid-template-columns: 1fr
+	grid-template-areas: "theader" "tcontents"
+	grid-template-rows: auto
+.theader
+	grid-area: "theader"
+	font-family: 'ProximaBold'
+	font-weight: bold
+	padding: 15px 15px 15px 15px
+.tcontents
+	grid-area: "tcontents"
+	display: grid
+	grid-template-columns: 1fr 1fr
+	grid-template-areas: "tcontent tprice"
+	grid-template-rows: auto
+	border-bottom: 1px solid $accent
+	padding: 15px
+.tcontent
+	grid-area: "tcontent"
+	font-family: 'ProximaLight'
+.tprice
+	grid-area: "tprice"
+	font-family: 'ProximaLight'
+	text-align: right
+
+.upbutton
+	display: none
+	position: fixed
+	bottom: 45px
+	right: 45px
+	width: 50px
+	height: 50px
+	border-radius: 50% 50%
+	background-color: $bgaccent
+	text-align: center
+	color: $accentnormal
+	cursor: pointer
+	font-family: 'ProximaLight'
+	&:hover
+		transform: scale(1.1)
+		transition: all .3 fabe-in-out
+		font-family: 'ProximaBold'
+	span
+		position: relative
+		top: 15px
+
+.social
+	margin: 20px 0 0 0
+	a
+		margin: 2.5px
+	svg
+		&:hover
+			path
+				fill: $accent !important
+			polygon
+				fill: $accent !important
+#work
+	position: relative
+
+.loadwork
+	display: none
+	background-color: $bgaccent
+	position: fixed
+	top: 0
+	left: 0
+	width: 100vw
+	height: 100vh
+	z-index: 999
+	div
+		width: 90vw
+		height: 90vh
+		background-color: white
+		position: fixed
+		top: 5vh
+		left: 5vw
+		z-index: 10000
+		box-shadow: 0 0 30px black
+	.exit
+		cursor: pointer
+		background-color: transparent
+		position: fixed
+		width: 30px
+		height: 30px
+		top: 2vh
+		left: 23px
+		color: black
+		font-size: 1.5em
+		box-shadow: none
+		text-shadow: 0 0 20px $accent
+		&:hover
+			color: $accent
+			text-shadow: 0 0 20px black
+.gridbox
+	display: grid
+	align-items: center
+	grid-template-columns: repeat(auto-fill,minmax(290px,1fr))
+	grid-gap: 20px
+
+ul
+	list-style: none

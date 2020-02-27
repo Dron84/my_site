@@ -1,0 +1,143 @@
+@media (min-width: 1030px)
+	.container
+		width: 1030px
+	.menu
+		width: 1030px
+	.links
+		display: inline
+	.support_right
+		p
+			margin-top: 20px
+@media (max-width: 1029px)
+	.container
+		width: 100%
+	.menu
+		width: 100%
+
+@media (max-width: 900px)
+	.menu 
+		display: block
+		position: fixed
+		top: 0
+		left: 0
+		height: 30px
+		z-index: 999
+		.links
+			width: 100%
+			display: none
+	.logo
+		width: 100%
+		border-bottom: 1px solid $accentnormal
+		padding-bottom: 10px
+		padding-top: 10px 
+		background-color: rgba(100,174,249,0.2) 
+		&:before
+			content: ""
+			position: absolute
+			right: 25px
+			top: 15px
+			display: block
+			width: 18px
+			height: 2px
+			background: #fcfefb
+		&:after
+			content: ""
+			position: absolute
+			right: 25px
+			top: 20px
+			display: block
+			-webkit-box-sizing: content-box
+			-moz-box-sizing: content-box
+			box-sizing: content-box
+			border-top: 2px solid #fcfefb
+			border-bottom: 2px solid #fcfefb
+			width: 18px
+			height: 3px
+	.container600
+		margin: 0 auto
+		width: 600px
+	#aboutself
+		//top: -20px
+		padding-top: 20px
+	.rew
+		grid-template-columns: 1fr 1fr
+		grid-template-areas: 'rew1 rew2'
+		.rew3
+			display: none
+	.work
+		grid-template-columns: 1fr 1fr
+		grid-template-areas: 'work1 work2'
+		div
+			width: 280px
+			height: 125px
+		.work1
+			width: 280px
+			height: 125px
+
+		.work3
+			display: none
+	.upbutton
+		bottom: 30px
+		right: 30px
+@media (max-width: 600px)
+	.container600
+		margin: 0 auto
+		width: 100%
+	.support
+		grid-template-columns: 1fr
+		grid-template-areas: "left" "right"
+		grid-template-rows: 200px auto
+		&_left
+			&:after
+				right: 20vw
+		&_right
+			text-align: center
+	#aboutself
+		//top: -20px
+		padding-top: 30px
+		padding-bottom: 0px
+	.rew
+		grid-template-columns: 1fr
+		grid-template-areas: 'rew1'
+		.rew2, .rew3
+			display: none
+	.work
+		grid-template-columns: 1fr
+		grid-template-areas: 'work1'
+		div
+			width: 280px
+			height: 125px
+		.work1
+			width: 280px
+			height: 125px
+
+		.work2, .work3
+			display: none
+	//#price
+	//	margin-top: 130px
+	input
+		margin-top: 20px
+	button
+		margin-top: 20px
+	.social
+		a
+			svg
+				width: 30px
+				height: 30px
+@media (max-width: 400px)
+	.header
+		h1, p
+			padding-left: 15px
+			padding-right: 15px
+		h1
+			font-size: 1.9em
+		p
+			font-size: 1em
+	.button
+		margin-top: 15px
+	section
+		padding-top: 20px
+		padding-bottom: 20px
+	.upbutton
+		width: 50px
+		height: 50px
