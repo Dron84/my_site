@@ -52,13 +52,6 @@
                     </div>
                 </div>
             </div>
-            <div class="container600">
-                <center>
-                    <p>Оставьте заявку на разработку вашего <span class="accent">уникального сайта</span></p>
-                    <input type="email" class="input" placeholder="Ваш E-mail" id='email3'>
-                    <button class="buttononwite" id='emailsend3'>Отправить запрос</button><span id='emailerror3'></span>
-                </center>
-            </div>
         </div>
     </section>
 </template>
