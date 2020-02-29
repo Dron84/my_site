@@ -114,12 +114,11 @@
             grid-template-columns: 1fr 40px
             grid-template-rows: 53px 1fr
             grid-template-areas: 'logo burger' 'menu menu'
-            /*position: fixed*/
             width: 100%
             top: 0
             left: 0
-            height: 30px
-            z-index: 999
+            height: 53px
+            z-index: 1000
             &.show
                 background: rgba($accent,.9)
                 .logo
@@ -144,6 +143,7 @@
                 display: none
                 background: rgba($accent,.9)
                 height: 100vh
+                z-index: 1001
                 .links
                     align-self: center
                     &:hover
