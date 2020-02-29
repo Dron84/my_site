@@ -38,6 +38,8 @@
         right: auto
         display: grid
         border-bottom: 1px solid white
+        /*position: fixed*/
+        /*z-index: 100000*/
         .logo
             color: $accent
             grid-area: logo

@@ -1,5 +1,6 @@
-body,h1,h2,h3
+body,h1,h2,h3,h4,h5
 	font-family: 'ProximaBold'
+	font-display: swap
 	//text-transform: uppercase
 *
 	margin: 0
@@ -14,9 +15,12 @@ p,a,li
 	font-family: 'ProximaRegular'
 	font-size: 18px
 	text-decoration: none
+	font-display: swap
+
 h1
 	font-size: 38px
-	text-align: center	
+	text-align: center
+	font-display: swap
 .footer
 	background-color: $accent
 	color: $accentnormal
@@ -33,12 +37,7 @@ h1
 	margin:
 		left: auto
 		right: auto
-	h1
-		// position: relative
-		// margin-top: 20vh
 	p
-		// position: relative
-		// margin-top: 10vh
 		font-size: 16px
 	input
 		margin-top: 10vh
@@ -60,13 +59,14 @@ h1
 	padding: 0 5px
 	color: $accentnormal
 	font-family: 'ProximaLight'
+	font-display: swap
 	width: 190px
 	z-index: 1000
 	&::placeholder
 		color: $accentnormal
 		font-size: 18px
 		font-family: 'ProximaLight'
-
+		font-display: swap
 .button
 	border: 1px solid $accent
 	padding: 0 5px
@@ -75,6 +75,7 @@ h1
 	color: $accentnormal
 	font-size: 18px
 	font-family: 'ProximaLight'
+	font-display: swap
 	height: 37px
 	width: 100%
 	z-index: 1000
@@ -82,6 +83,7 @@ h1
 		background-color: transparent
 		border: 1px solid $accentnormal
 		font-family: 'ProximaBold'
+		font-display: swap
 
 .angel 
 	width: 100%
@@ -255,14 +257,18 @@ h1
 			font-family: 'ProximaBold'
 			font-weight: 300
 			text-decoration: none
+			font-display: swap
 		h3
 			font-family: 'ProximaBold'
 			font-weight: 300
+			font-display: swap
 		p
 			font-family: 'ProximaLight'
+			font-display: swap
 		div
 			font-family: 'ProximaLight'
 			color: grey
+			font-display: swap
 		
 		&:hover
 			content: ''
@@ -281,6 +287,7 @@ h1
 .theader
 	grid-area: "theader"
 	font-family: 'ProximaBold'
+	font-display: swap
 	font-weight: bold
 	padding: 15px 15px 15px 15px
 .tcontents
@@ -294,9 +301,11 @@ h1
 .tcontent
 	grid-area: "tcontent"
 	font-family: 'ProximaLight'
+	font-display: swap
 .tprice
 	grid-area: "tprice"
 	font-family: 'ProximaLight'
+	font-display: swap
 	text-align: right
 
 .upbutton
@@ -312,6 +321,7 @@ h1
 	color: $accentnormal
 	cursor: pointer
 	font-family: 'ProximaLight'
+	font-display: swap
 	&:hover
 		transform: scale(1.1)
 		transition: all .3 fabe-in-out

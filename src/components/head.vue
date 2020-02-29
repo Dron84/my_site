@@ -2,7 +2,7 @@
     <header class="header">
         <navmenu></navmenu>
         <div class="container">
-            <h1 class="accentnormal">Создаем<span class="accent"> уникальные сайты </span><br>доступные каждому</h1>
+            <h1 class="accentnormal title titleTag">Создаем<span class="accent"> уникальные сайты </span><br>доступные каждому</h1>
             <p class="accentnormal">Я занимаюсь разработкой интернет-проектов любой сложности <br>и оказываю помощь в Web среде</p>
             <!--<input type="email" class="inputonblack" placeholder="Ваш E-mail" id='email1'>-->
             <!--<button class="button" id='emailsend1'>Отправить запрос</button><span id='emailerror1'></span>-->
