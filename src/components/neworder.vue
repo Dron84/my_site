@@ -36,7 +36,7 @@
         color: $accent
         font-size: 18px
         font-family: 'ProximaLight'
-        width: 100%
+        width: 98%
         z-index: 1000
         outline: none
         &::placeholder

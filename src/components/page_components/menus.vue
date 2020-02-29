@@ -114,7 +114,7 @@
             grid-template-columns: 1fr 40px
             grid-template-rows: 53px 1fr
             grid-template-areas: 'logo burger' 'menu menu'
-            position: fixed
+            /*position: fixed*/
             width: 100%
             top: 0
             left: 0

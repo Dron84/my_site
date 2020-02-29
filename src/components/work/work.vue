@@ -182,6 +182,7 @@
         display: grid
         grid-template-columns: repeat(auto-fill, minmax(290px,1fr))
         grid-gap: 20px
+        margin-left: 20px
         .work_item
             width: 290px
             height: 200px
