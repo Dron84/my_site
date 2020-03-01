@@ -11,6 +11,7 @@
                     <div class="stack">
                         <span class="stack_item" v-for="(tag,ind) in item.stack.split(',')" :key="ind">{{tag}}</span>
                     </div>
+                    <a class="link" :href="item.a" target="_blank" rel="nofollow" v-if="item.a!==''">на сайт</a>
                     <span class="date">{{item.date}}</span>
                 </div>
             </div>
@@ -102,8 +103,8 @@
                         stack: 'HTML,PHP,MySQL,JS,Vue,Vuex,SASS,Git'
                     },
                     {
-                        img: "/works/fengshui-consultant/th/index.jpeg",
-                        a: "fengshui-consultant.ru",
+                        img: "/works/fengshui-consultant/th.jpg",
+                        a: "//fengshui-consultant.ru",
                         h3: "Феншуй для каждого",
                         p: "",
                         date: "02.2018",
@@ -112,7 +113,7 @@
                     },
                     {
                         img: "/works/aliance/th.jpg",
-                        a: "aliance.company",
+                        a: "//aliance.company",
                         h3: "ООО Альянс",
                         p: "В лице директора компании ООО 'Альянс', выражаю свою благодарность за качественную, добросовестную работу.",
                         date: "11.2017",
@@ -121,7 +122,7 @@
                     },
                     {
                         img: "/works/intech/th.jpg",
-                        a: "ooointech.ru",
+                        a: "//ooointech.ru",
                         h3: "ООО Инновационные технологии",
                         p: "В лице директора компании ООО 'Инновационные технологии', выражаю свою благодарность за быструю, качественную, красивую добросовестную работу, выполненную в нужный срок.",
                         date: "02.2017",
@@ -130,7 +131,7 @@
                     },
                     {
                         img: "/works/trisestri/th.jpg",
-                        a: "trisestri.ru",
+                        a: "//trisestri.ru",
                         h3: "Магазин тканей 'Три Сестры'",
                         p: "Все четко качественно и без задержек",
                         date: "01.2017",
@@ -139,7 +140,7 @@
                     },
                     {
                         img: "/works/taran/th.jpg",
-                        a: "taran.com",
+                        a: "//taran.com",
                         h3: "ИП Таран",
                         p: "Выражаю свою благодарность за качественную и добросовестную работу, выполненную в короткие сроки. с Вами приятно работать.",
                         date: "07.2016",
@@ -148,7 +149,7 @@
                     },
                     {
                         img: "/works/jobcam/th.jpg",
-                        a: "jobcam.online",
+                        a: "//jobcam.online",
                         h3: "JobCam.online",
                         p: "Быстро, анонимно, дешево и в срок",
                         date: "04.2016",
@@ -176,7 +177,7 @@
 <style scoped lang="sass">
     @import "../sass/vars"
     .new_galery_wrapper
-        width: 100%
+        width: 97%
         height: auto
         position: relative
         display: grid
@@ -217,8 +218,21 @@
                     -webkit-transform: scale(1.1)
                     transform: scale(1.1)
                     opacity: 1
-                .stack
+                .stack,.link
                     opacity: 1
+            .link
+                position: absolute
+                bottom: 30px
+                right: 20px
+                border-radius: 5px
+                border: 2px solid $accent
+                background-color: transparent
+                color: $accent
+                opacity: 0
+                padding: 2px 15px
+                &:hover
+                    border: 2px solid $accentnormal
+                    color: $accentnormal
             h3,span.date
                 width: 100%
                 text-align: center
@@ -242,7 +256,7 @@
                     display: inline-block
                     border-radius: 5px
                     margin: 5px
-                    background-color: $accent
-                    color: $accentnormal
+                    background-color: rgba($accent,.5)
+                    color: rgba($accentnormal,.5)
 
 </style>
