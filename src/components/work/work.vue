@@ -8,10 +8,11 @@
             <div class="new_galery_wrapper">
                 <div class="work_item box_shadow" :style="`background-image: url(${item.img})`" v-for="(item,index) in works" :key="index">
                     <h3>{{item.h3}}</h3>
+                    <a class="link git" :href="item.git_link" target="_blank" rel="nofollow" v-if="item.git_link!==''&&item.git_link!==undefined">GitHub</a>
                     <div class="stack">
                         <span class="stack_item" v-for="(tag,ind) in item.stack.split(',')" :key="ind">{{tag}}</span>
                     </div>
-                    <a class="link" :href="item.a" target="_blank" rel="nofollow" v-if="item.a!==''">на сайт</a>
+                    <a class="link" :href="item.a" target="_blank" rel="nofollow" v-if="item.a!==''&&item.a!==undefined">на сайт</a>
                     <span class="date">{{item.date}}</span>
                 </div>
             </div>
@@ -29,8 +30,18 @@
             return {
                 works:[
                     {
+                        img: '/works/taroportret/th.jpg',
+                        a: "//taroportret.ru",
+                        h3: "Калькулятор Карт Таро",
+                        review: "",
+                        date: "05/2020",
+                        description: "Создал 4 калькулятора на JS ",
+                        stack: 'HTML,NodeJS,JS,Vue,Vuex,SASS',
+                        git_link: 'https://github.com/Dron84/tarot'
+                    },
+                    {
                         img: '/works/todo/th.jpg',
-                        a: "",
+                        a: "https://github.com/Dron84/todo",
                         h3: "Создать ToDo",
                         review: "",
                         date: "02/2020",
@@ -49,7 +60,7 @@
                     },
                     {
                         img: "/works/weatherapp/th.jpg",
-                        a: "",
+                        a: "https://github.com/Dron84/WetherAppWithOutServer",
                         h3: "Программа для погоды",
                         p: "",
                         date: "12.2019",
@@ -182,10 +193,10 @@
         position: relative
         display: grid
         grid-template-columns: repeat(auto-fill, minmax(290px,1fr))
+        justify-content: center
         grid-gap: 20px
-        margin-left: 20px
+        margin: 0 6px
         .work_item
-            width: 290px
             height: 200px
             position: relative
             border-radius: 5px
@@ -230,6 +241,9 @@
                 color: $accent
                 opacity: 0
                 padding: 2px 15px
+                &.git
+                    left: 20px
+                    right: auto
                 &:hover
                     border: 2px solid $accentnormal
                     color: $accentnormal

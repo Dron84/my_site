@@ -8,7 +8,7 @@
         </div>
         <menu :class="{'show': menuShow}" @click="menuShow = false">
             <a href="#aboutself" class="links" >Обо мне</a>
-            <a href="#oldwork" class="links" >Мои работы</a>
+            <a href="#works" class="links" >Мои работы</a>
             <a href="#review" class="links" >Отзывы</a>
             <a href="#price" class="links" >Цены</a>
             <a href="#contacts" class="links" >Контакты</a>
@@ -142,7 +142,7 @@
             menu
                 display: none
                 background: rgba($accent,.9)
-                height: 100vh
+                height: 100%
                 z-index: 1001
                 .links
                     align-self: center

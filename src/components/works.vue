@@ -1,12 +1,12 @@
 <template>
-    <section id="work">
+    <section id="works">
         <div class="container600">
             <center>
                 <p>Я занимаюсь созданием и <span class="accent" title="это сбор информации и сохранение его в удобочитаемом и переиспользуемом формате">парсингом (скрапингом)</span> сайтов по разным направлениям: красота, технологии, кулинария, бухгалтерия, спорт и многое другое. </p>
                 <p>Посмотрите несколько моих работ.</p>
             </center>
         </div>
-        <newwork></newwork>
+        <newwork />
         <!--<neworder></neworder>-->
     </section>
 </template>

@@ -13,32 +13,32 @@
                         <div class="tcontent">Верстка 1 стр</div>
                         <div class="tprice">от 500р.</div>
                         <div class="tcontent">Верстка сайта под ключ</div>
-                        <div class="tprice">от 5000р.</div>
+                        <div class="tprice">от 3000р.</div>
                     </div>
                     <div class="theader" id="techsupport">Техническая поддержка</div>
                     <div class="tcontents">
                         <div class="tcontent">Администрирование сайта</div>
-                        <div class="tprice">от 3 000 руб./мес</div>
+                        <div class="tprice">от 1 000 руб./мес</div>
                         <div class="tcontent">Добавление новостей или редактирование 1 стр</div>
-                        <div class="tprice">от 300р.</div>
+                        <div class="tprice">от 500р.</div>
                     </div>
                     <div class="theader">Разработка (без дизайна)</div>
                     <div class="tcontents">
                         <div class="tcontent">Сайт визитка</div>
-                        <div class="tprice">от 5 000 руб.</div>
+                        <div class="tprice">от 1 000 руб.</div>
                         <div class="tcontent">Сайт landing Page (посадочная страница)</div>
-                        <div class="tprice">от 5 000 руб.</div>
+                        <div class="tprice">от 1 000 руб.</div>
                     </div>
                     <div class="theader">Разработка под ключ</div>
                     <div class="tcontents">
                         <div class="tcontent">Уникальный сайт</div>
-                        <div class="tprice">от 20 000 руб.</div>
+                        <div class="tprice">от 10 000 руб.</div>
                         <div class="tcontent">Сайт на CMS</div>
-                        <div class="tprice">от 10 000 руб.</div>
+                        <div class="tprice">от 3 000 руб.</div>
                         <div class="tcontent">landing Page</div>
-                        <div class="tprice">от 10 000 руб.</div>
+                        <div class="tprice">от 3 000 руб.</div>
                         <div class="tcontent">Сайт визитка</div>
-                        <div class="tprice">от 10 000 руб.</div>
+                        <div class="tprice">от 3 000 руб.</div>
                     </div>
                     <div class="theader">Разработка корпоративных сайтов</div>
                     <div class="tcontents">
