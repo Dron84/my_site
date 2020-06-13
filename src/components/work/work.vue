@@ -30,6 +30,16 @@
             return {
                 works:[
                     {
+                        img: '/works/avocadoForm/th.png',
+                        a: "//avocado.uniquesite.ru",
+                        h3: "Админ панель",
+                        review: "",
+                        date: "10/06/2020",
+                        description: "Возможность вводить данные и просматривать а также разгарничеть доступ",
+                        stack: 'HTML,JS,Vue,Vuex,SASS,PHP,MySQL',
+                        git_link: 'https://github.com/Dron84/AvocadoForm'
+                    },
+                    {
                         img: '/works/taroportret/th.jpg',
                         a: "//taroportret.ru",
                         h3: "Калькулятор Карт Таро",
@@ -51,10 +61,10 @@
                     },
                     {
                         img: '/works/nadirparser/th.jpg',
-                        a: "//45.8.230.229",
+                        a: "//185.181.8.15/",
                         h3: "Кабинет для частного лица\n по парсингу спортивных сайтов",
                         review: "",
-                        date: "с 01/2020 по 02/2020",
+                        date: "с 01/2020 по 06/2020",
                         description: "Изначально парень попросил спарсить один сайт под названием Soccerway. Но вошел в кураж и на данный момент его программа парсит уже более 10 сайтов и собирает спортивные данные.",
                         stack: 'HTML,NodeJS,JS,Vue,Vuex,VuePaperDashboard,SASS,MongoDB,Docker,Docker-compose,Git,VPS server'
                     },
