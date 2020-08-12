@@ -7,6 +7,7 @@
     <img src="/img/brands/TS.png" alt="TypeScript" />
     <img src="/img/brands/vuejs.svg" alt="vuejs" />
     <img src="/img/brands/react.png" alt="react" />
+    <img src="/img/brands/git.png" alt="github" />
 
     <img src="/img/brands/nodejs.svg" alt="nodejs" />
     <img src="/img/brands/php.png" alt="PHP" />
