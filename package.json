@@ -15,7 +15,7 @@
   "devDependencies": {
     "@babel/compat-data": "^7.10.5",
     "@babel/plugin-proposal-numeric-separator": "^7.10.4",
-    "@vue/cli": "4.2.0",
+    "@vue/cli": "5.0.8",
     "@vue/cli-plugin-babel": "4.2.0",
     "@vue/cli-plugin-vuex": "4.2.0",
     "@vue/cli-service": "5.0.8",
